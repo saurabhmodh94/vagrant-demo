@@ -1,0 +1,25 @@
+2002  sudo apt install vagrant
+2006  vagrant init ubuntu/trusty64
+2008  code .
+2009  vagrant up 
+2023  vagrant -v
+2036  vagrant suspend 
+2037  vagrant resume 
+2038  vagrant reload 
+2039  vagrant ssh
+2044  sudo apt-get install nfs-common nfs-kernel-server
+2046  vagrant destroy 
+2061  ps -ef | grep vagrant
+2062  killall -9 vagrant 
+2106  kill -9 29878
+
+vagrant@vagrant-ubuntu-trusty-64:~$ history
+    1  mysql -u root -p
+    5  ls /var/www/html
+ 
+create database test;
+use test;
+create table posts(id INT PRIMARY KEY, msg VARCHAR(30));
+show tables;
+INSERT INTO posts (id, msg) VALUES (1, "Hello!");
+SELECT * FROM posts;
